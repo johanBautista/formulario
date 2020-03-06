@@ -3,3 +3,40 @@
   padding: 0;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8% 3%;
+}
+
+.linea-vertical {
+  background-color: #808080;
+  height: 90px;
+  width: 2px;
+  margin: 0 20px;
+}
+
+.main {
+  background-color: #eeede9;
+  padding: 10px;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px 60px 90px 60px;
+  margin: 30px 60px 90px 60px;
+  box-shadow: 0 5px 15px #888888;
+  text-align: center;
+}
+
+.container-top p {
+  color: #2c2b2b;
+  margin-top: 40px;
+}
+
+.logo {
+  background-color: #cccccc;
+  color: rgb(49, 49, 49);
+  padding: 25px 15px;
+}

@@ -1,0 +1,105 @@
+@import 'variables';
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* ---------------- styles header ------------ */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8% 3%;
+}
+
+.header-title {
+  font-family: pirulen;
+  letter-spacing: -1px;
+}
+
+.header-color {
+  color: $color-uno;
+}
+
+.linea-vertical {
+  background-color: $color-seis;
+  height: 90px;
+  width: 2px;
+  margin: 0 20px;
+}
+
+.header-text {
+  color: $color-seis;
+}
+
+/* ---------------- styles container ------------ */
+
+.main {
+  background-color: $color-dos;
+  padding: 10px;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px 60px 90px 60px;
+  margin: 30px 60px 90px 60px;
+  box-shadow: 0 5px 15px $color-seis;
+  text-align: center;
+}
+
+.container-top {
+  padding-top: 50px;
+}
+.container-top p {
+  color: #2c2b2b;
+  margin-top: 40px;
+}
+
+.logo {
+  background-color: $color-tres;
+  color: rgb(49, 49, 49);
+  padding: 25px 15px;
+}
+
+/* ---------------- styles form ------------ */
+
+input[type='text'] {
+  width: 40%;
+  padding: 12px;
+  margin: 15px;
+  border: none;
+  border-bottom: $color-seis 1px solid;
+}
+
+input[type='button'] {
+  background-color: $color-cuatro;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 40%;
+  margin-top: 20px;
+}
+
+input[type='button']:hover {
+  background-color: $color-cinco;
+}
+
+/*  RESPONSIVE ================================ */
+
+/* ---------------- @media ------------ */
+@media (min-width: 320px) and (max-width: 820px) {
+  .header {
+    padding: 10px;
+    font-size: 0.7em;
+  }
+  .container {
+    margin: 10px;
+    padding: 10px;
+  }
+  input[type='text'] {
+    width: 80%;
+  }
+}

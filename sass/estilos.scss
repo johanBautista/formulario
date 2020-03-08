@@ -103,3 +103,14 @@ input[type='button']:hover {
     width: 80%;
   }
 }
+
+/*  css js  alerts ================================ */
+
+.alertError {
+  display: block;
+  padding: 12px 20px;
+  background-color: $color-siete;
+  color: $color-uno;
+  margin-bottom: 10px;
+}
+

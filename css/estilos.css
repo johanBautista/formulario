@@ -83,5 +83,12 @@ input[type='button']:hover {
 
   input[type='text'] {
     width: 80%; } }
+/*  css js  alerts ================================ */
+.alertError {
+  display: block;
+  padding: 12px 20px;
+  background-color: #ec6d6d33;
+  color: #b31616;
+  margin-bottom: 10px; }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -55,17 +55,11 @@ function validarFormulario() {
     }
   }
 
-  //  ---------------------  validacion email2 ---------------------
-  if (email2 == '' || email2 == null) {
+  //  ---------------------  validacion email 2 ---------------------
+  if (email != email2) {
     pintarError('email2');
-    mensajeError('Este campo es obligatorio');
+    mensajeError('El correo no coincide');
     return false;
-  } else {
-    if (!expresionEmail.test(email2)) {
-      pintarError('email2');
-      mensajeError('Ingrese un correo válido');
-      return false;
-    }
   }
 
   //  ---------------------  validacion dni ---------------------

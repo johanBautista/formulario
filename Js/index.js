@@ -89,6 +89,12 @@ function validarFormulario() {
       return false;
     }
   }
+
+  // prueba alert
+  var prueba =
+    nombre + ' \n' + apellido + '\n ' + email + ' \n' + dni + ' \n' + movil;
+  alert(prueba);
+  console.log(cuatro);
 }
 
 // funcion marcar error
